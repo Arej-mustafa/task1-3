@@ -1,0 +1,492 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    background-color: darkgray;
+    z-index: 10;
+}
+
+#box1,#box2,#box3 {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px 0;
+}
+
+nav .NAV {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Mizra', cursive;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav button {
+    display: none;
+    color: white;
+    background-color: darkgray;
+    font-size: 20px;
+    border: none;
+}
+ .hero {
+    position: relative;
+    background-color: lightcoral;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    top: 10px;
+
+}
+
+ .hero .back {
+    position: relative;
+    width: 123px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+    padding-left: 15px;
+}
+
+.hero .back .personalpic {
+    position: absolute;
+    width: 120px;
+    top: -28px;
+    left: -1px;
+    border-radius: 50%;
+
+
+}
+
+.hero h1,h2 {
+    color: white;
+}
+
+#box1 {
+    height:700px;
+    display: flex;
+
+}
+
+#box1 .parent2.card1 h2 {
+    color: black;
+}
+
+.card1 h2 {
+    color: black;
+}
+.countiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start {
+    color: gold;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.START {
+    width: 95px;
+    height: 5px;
+    background-color: black;
+}
+
+.START22 {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+}
+
+
+#box1 .countiner1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+#box1 .countiner1 .cards {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#box1 .countiner1 .cards .back1,.back2,.back3,.back4,.back5,.back6,.back7,.back8 {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+
+}
+
+#box1 .countiner1 .cards .back1 {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 6px 6px 6px #ff000098;
+}
+
+#box1 .countiner1 .cards .back2 {
+    background-color: paleturquoise;
+    box-shadow: 6px 6px 6px rgba(0, 0, 255, 0.633);
+}
+
+#box1 .countiner1 .cards .back3 {
+    background-color: gray;
+    box-shadow: 6px 6px 6px black;
+}
+
+#box1 .countiner1 .cards .back4 {
+    background-color: yellow;
+    box-shadow: 6px 6px 6px goldenrod;
+}
+
+#box1 .countiner1 .cards .back5 {
+    background-color: greenyellow;
+    box-shadow: 6px 6px 6px rgb(47, 255, 144);
+}
+
+#box1 .countiner1 .cards .back6 {
+    background-color: plum;
+    box-shadow: 6px 6px 6px purple;
+}
+
+#box1 .countiner1 .cards .back7 {
+    background-color: lemonchiffon;
+    box-shadow: 6px 6px 6px coral;
+}
+
+#box1 .countiner1 .cards .back8 {
+    background-color: pink;
+    box-shadow: 6px 6px 6px deeppink;
+}
+
+#box1 .countiner1 .cards .picture1,.picture3,.picture6,.picture7,.picture8 {
+    width: 100px;
+}
+
+#box1 .countiner1 .cards .picture2,.picture4 {
+    width: 85px;
+}
+
+#box1 .countiner1 .cards .picture5 {
+    width: 150px;
+}
+
+#box2 {
+    background-color: lightcoral;
+}
+
+#box2 ul,#box3 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+
+
+}
+
+
+#box2 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box2 ul .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+
+.parent,.parent1,.parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#box2 .child-box7 .sendmassage {
+    width: 200px;
+    height: 40px;
+    background-color: lightcoral;
+    color:chartreuse;
+    margin: 20px;
+    border-color:white;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    font-family:'Mizra', cursive;
+}
+
+#footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Mizra', cursive;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Mizra', cursive;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Mizra', cursive;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.footer .footer2 .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.footer .footer1,.footer2,.footer3 {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    ;
+
+}
+
+.footer .footer1 {
+    margin-left: 120px;
+}
+
+.footer .footer3 {
+    margin-right: 120px;
+}
+
+.footer .footer2 {
+    margin-left: 80px;
+
+}
+
+nav .footer3 a {
+    color: chartreuse;
+}
+
+#box3 .submit {
+    width: 50px;
+    height: 30px;
+    background-color: chartreuse;
+    color: white;
+    margin: 10px 0;
+    border-radius: 7px;
+    font-size: medium;
+
+}
+
+
+#box3 .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+form form {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form form input {
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+    padding-bottom: 9px;
+    width: 500px;
+    outline: none;
+}
+.form form .phone,.email,.name{
+    display: flex;
+    margin-top: 10px;
+}
+.form form .massage{
+    display: flex;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:992px) {
+    nav button {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .NAV h1 {
+        font-size: 13px;
+    }
+
+    nav .hero h1,
+    h2 {
+        font-size: 22px;
+    }
+
+    #box1 {
+        height: max-content;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #box1 .countiner1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #box2 {
+        height: max-content;
+
+    }
+
+    #box2 ul {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form form input {
+        border: none;
+        border-bottom: 1px solid #A8A8A8;
+        padding-bottom: 9px;
+        width: 250px;
+        outline: none;
+    }
+
+    .footer3 h2,p {
+        font-size: 18px;
+    }
+
+    nav .footer1 h2 {
+        font-size: 18px;
+    }
+
+    nav .footer1 p {
+        font-size: 15px;
+
+    }
+
+
+    nav .footer2 h2 {
+
+        font-size: 18px;
+        margin-top: 30px;
+
+
+
+    }
+
+    nav .footer2 .links {
+        font-size: 18px;
+        margin-bottom: 30px;
+
+    }
+
+    nav .footer3 h1 {
+        font-size: 18px;
+
+
+    }
+
+    nav .footer2 {
+        padding-left: 30px;
+    }
+
+    nav .footer3 {
+        padding-left: 115px;
+    }
+
+    nav .footer {
+        height: max-content;
+        padding: 30px;
+
+    }
+
+}
